@@ -1,5 +1,6 @@
+const tasks_counter = document.getElementById("tasks-counter");
+
 function add_buttonClicked() {
-  const tasks_counter = document.getElementById("tasks-counter");
   const tasks_table = document.getElementById("tasks-table");
   const input_text = document.getElementById("input-text");
   const li_tag = document.createElement("li");
@@ -17,4 +18,5 @@ function add_buttonClicked() {
 
 function remove_task(parentEle) {
   parentEle.parentElement.remove();
+  tasks_counter.innerText = Number(tasks_counter.textContent) - 1;
 }
