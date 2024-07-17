@@ -7,4 +7,6 @@ li i {
 }
 li:hover i {
   visibility: visible;
+  color: #0d42ff;
+  padding-left: 10px;
 }
