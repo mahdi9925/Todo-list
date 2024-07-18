@@ -1,12 +1,17 @@
-li {
+span#span-task {
   cursor: pointer;
   font-size: 20px;
 }
-li i {
+span#span-task i {
   visibility: hidden;
+  margin-left: 20px;
 }
-li:hover i {
+span#span-task:hover i {
   visibility: visible;
   color: #0d42ff;
-  padding-left: 10px;
+  margin-left: 20px;
+}
+
+input[type='checkbox']{
+  margin-left: 20px;
 }
