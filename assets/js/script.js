@@ -29,3 +29,4 @@ function remove_task(parentEle) {
 }
 
 // todo -> add action for complete tasks list
+// todo -> decrease task counter and increase completed counter when tasks is completed
