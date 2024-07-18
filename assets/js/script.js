@@ -27,3 +27,5 @@ function remove_task(parentEle) {
   parentEle.parentElement.remove();
   tasks_counter.innerText = Number(tasks_counter.textContent) - 1;
 }
+
+// todo -> add action for complete tasks list
