@@ -47,12 +47,12 @@ function checkboxDone(parent) {
 
   span_tag_completed.innerHTML +=
     parent.value +
-    "<i class='fa fa-times' aria-hidden='true' onclick = remove_task(this)></i> <br>";
+    "<i class='fa fa-times' aria-hidden='true' onclick = remove_completed(this)></i> <br>";
 
   completed_table.appendChild(span_tag_completed);
 
-  const i_tag_completed = document.querySelector("#span-completed i");
-  i_tag_completed.setAttribute("onclick", "remove_completed(this)");
+  // const i_tag_completed = document.querySelector("#span-completed i");
+  // i_tag_completed.setAttribute("onclick", "remove_completed(this)");
 
   tasks_counter.innerText = Number(tasks_counter.textContent) - 1;
   completed_counter.innerText = Number(completed_counter.textContent) + 1;
