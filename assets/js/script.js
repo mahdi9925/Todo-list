@@ -51,14 +51,8 @@ function checkboxDone(parent) {
 
   completed_table.appendChild(span_tag_completed);
 
-  // const i_tag_completed = document.querySelector("#span-completed i");
-  // i_tag_completed.setAttribute("onclick", "remove_completed(this)");
-
   tasks_counter.innerText = Number(tasks_counter.textContent) - 1;
   completed_counter.innerText = Number(completed_counter.textContent) + 1;
 
   parent.remove();
 }
-
-// todo -> add action for complete tasks list
-// todo -> decrease task counter and increase completed counter when tasks is completed
