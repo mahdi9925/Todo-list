@@ -1,18 +1,22 @@
-span#span-task {
+span#span-task,
+span#span-completed {
   cursor: pointer;
   font-size: 20px;
 }
-span#span-task i {
+span#span-task i,
+span#span-completed i {
   visibility: hidden;
   margin-left: 20px;
 }
-span#span-task:hover i {
+span#span-task:hover i,
+span#span-completed:hover i {
   visibility: visible;
   color: #3d5ccc;
   margin-left: 20px;
 }
 
-span#span-task input[type="checkbox"] {
+span#span-task input[type="checkbox"],
+span#span-completed input[type="checkbox"] {
   margin-right: 20px;
   height: 15px;
   width: 15px;
