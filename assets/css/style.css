@@ -8,12 +8,16 @@ span#span-task i {
 }
 span#span-task:hover i {
   visibility: visible;
-  color: #0d42ff;
+  color: #3d5ccc;
   margin-left: 20px;
 }
 
-input[type='checkbox']{
-  margin-left: 20px;
-  /* todo -> change position of checkbox ( left to right) */
+span#span-task input[type="checkbox"] {
+  margin-right: 20px;
+  height: 15px;
+  width: 15px;
+  float: left;
+  cursor: pointer;
+  margin-top: 6px;
   /* todo -> Beautify checkbox */
 }

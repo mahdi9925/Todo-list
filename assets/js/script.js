@@ -21,7 +21,7 @@ function add_buttonClicked() {
   input_text.value = "";
   span_tag.appendChild(check_done);
   span_tag.innerHTML +=
-    "<i class='fa fa-times' aria-hidden='true' onclick = remove_task(this)></i>";
+    "<i class='fa fa-times' aria-hidden='true' onclick = remove_task(this)></i> <br>";
 }
 
 function remove_task(parentEle) {
