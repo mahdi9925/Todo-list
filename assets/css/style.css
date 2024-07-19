@@ -15,4 +15,5 @@ span#span-task:hover i {
 input[type='checkbox']{
   margin-left: 20px;
   /* todo -> change position of checkbox ( left to right) */
+  /* todo -> Beautify checkbox */
 }
