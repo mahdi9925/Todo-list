@@ -10,7 +10,8 @@ function add_buttonClicked() {
   check_done.setAttribute("type", "checkbox");
 
   if (input_text.value == "") {
-    alert("Please enter a text");
+    alert(`Please enter your task.
+      This field is required.`);
   } else {
     tasks_table.appendChild(span_tag);
     span_tag.innerText = input_text.value;
